@@ -1,6 +1,6 @@
 package Tie::CHI;
 BEGIN {
-  $Tie::CHI::VERSION = '0.01';
+  $Tie::CHI::VERSION = '0.02';
 }
 use CHI;
 use Scalar::Util qw(blessed);
@@ -77,7 +77,7 @@ Tie::CHI - Tied hash to persistent CHI cache
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

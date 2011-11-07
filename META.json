@@ -19,6 +19,12 @@
             "ExtUtils::MakeMaker" : "6.30"
          }
       },
+      "runtime" : {
+         "requires" : {
+            "CHI" : 0,
+            "Scalar::Util" : 0
+         }
+      },
       "test" : {
          "requires" : {
             "Test::Deep" : 0,
@@ -38,6 +44,6 @@
          "web" : "https://github.com/jonswar/perl-tie-chi"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

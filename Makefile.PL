@@ -22,8 +22,11 @@ my %WriteMakefileArgs = (
   'EXE_FILES' => [],
   'LICENSE' => 'perl',
   'NAME' => 'Tie::CHI',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.01',
+  'PREREQ_PM' => {
+    'CHI' => '0',
+    'Scalar::Util' => '0'
+  },
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

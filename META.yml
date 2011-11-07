@@ -14,7 +14,10 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Tie-CHI
+requires:
+  CHI: 0
+  Scalar::Util: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Tie-CHI
   repository: git://github.com/jonswar/perl-tie-chi.git
-version: 0.01
+version: 0.02
